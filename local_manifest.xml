@@ -27,10 +27,7 @@
 	<project name="PureNexusProject/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="mm" />
 	<project name="PureNexusProject/android_kernel_lge_bullhead" path="kernel/lge/bullhead" remote="github" revision="mm" />
 
-<!-- ThugLife bullhead kernel -->
-	<!--project name="akhilnarang/ThugLife_bullhead" path="kernel/thuglife/lge/bullhead" remote="github" revision="master" /-->
-
-<!-- SaberMod toolchain 4.9 -->
+<!-- UBERTC toolchain 4.9 -->
 	<remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
 	<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
 	<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
