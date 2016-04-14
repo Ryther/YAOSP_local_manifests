@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remote  name="bb"
+           fetch="https://bitbucket.org/" />
+
 <remove-project name="YAOSP/device_asus_flo" />
 <remove-project name="device/asus/fugu" />
 <remove-project name="device/asus/fugu-kernel" />
@@ -17,8 +20,29 @@
 <remove-project name="device/lge/bullhead" />
 <remove-project name="device/lge/bullhead-kernel" />
 
-<project name="PureNexusProject/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="mm" />
-<project name="PureNexusProject/android_kernel_lge_bullhead" path="kernel/lge/bullhead" remote="github" revision="mm" />
-<project name="Ryther/YAOSP_scripts" path="scripts" remote="github" revision="master" />
+<!-- Ryther misc -->
+	<project name="Ryther/YAOSP_scripts" path="scripts" remote="github" revision="master" />
+
+<!-- bullhead device and kernel -->
+	<project name="PureNexusProject/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="mm" />
+	<project name="PureNexusProject/android_kernel_lge_bullhead" path="kernel/lge/bullhead" remote="github" revision="mm" />
+
+<!-- ThugLife bullhead kernel -->
+	<!--project name="akhilnarang/ThugLife_bullhead" path="kernel/thuglife/lge/bullhead" remote="github" revision="master" /-->
+
+<!-- SaberMod toolchain 4.9 -->
+	<remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+	<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+	<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+
+
+	<project name="UBERTC/arm-eabi-4.8.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="bb" revision="master" />
+	<project name="UBERTC/arm-eabi-4.9.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bb" revision="master" />
+
+	<project name="UBERTC/arm-linux-androideabi-4.8.git" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="bb" revision="master" />
+	<project name="UBERTC/arm-linux-androideabi-4.9.git" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bb" revision="master" />
+
+	<project name="UBERTC/aarch64-linux-android-4.9.git" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="bb" revision="master" />
+	<project name="UBERTC/aarch64-linux-android-4.9-kernel.git" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
 
 </manifest>
