@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remove-project name="YAOSP/device_asus_flo" />
+<remove-project name="device/asus/fugu" />
+<remove-project name="device/asus/fugu-kernel" />
+<remove-project name="device/htc/flounder" />
+<remove-project name="device/htc/flounder-kernel" />
+<remove-project name="device/asus/deb" />
+<remove-project name="YAOSP/device_huawei_angler" />
+<remove-project name="YAOSP/kernel_huawei_angler" />
+<remove-project name="YAOSP/kernel_htc_flounder" />
+<remove-project name="YAOSP/kernel_asus_flo" />
+<remove-project name="YAOSP/vendor_huawei" />
+<remove-project name="YAOSP/vendor_htc" />
+<remove-project name="YAOSP/vendor_asus" />
+<remove-project name="device/lge/bullhead" />
+<remove-project name="device/lge/bullhead-kernel" />
+
+<project name="PureNexusProject/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="mm" />
+<project name="PureNexusProject/android_kernel_lge_bullhead" path="kernel/lge/bullhead" remote="github" revision="mm" />
+<project name="Ryther/YAOSP_scripts" path="scripts" remote="github" revision="master" />
+
+</manifest>
