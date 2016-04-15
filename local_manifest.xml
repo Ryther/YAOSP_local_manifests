@@ -19,6 +19,7 @@
 <remove-project name="YAOSP/vendor_asus" />
 <remove-project name="device/lge/bullhead" />
 <remove-project name="device/lge/bullhead-kernel" />
+<remove-project name="vendor/lge" />
 
 <!-- Ryther misc -->
 	<project name="Ryther/YAOSP_scripts" path="scripts" remote="github" revision="master" />
