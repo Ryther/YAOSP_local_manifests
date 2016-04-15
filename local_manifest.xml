@@ -22,7 +22,7 @@
 <remove-project name="vendor/lge" />
 
 <!-- Ryther misc -->
-	<project name="Ryther/YAOSP_scripts" path="scripts" remote="github" revision="master" />
+	<project name="Ryther/scripts" path="scripts" remote="github" revision="master" />
 
 <!-- bullhead device and kernel -->
 	<project name="PureNexusProject/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="mm" />
