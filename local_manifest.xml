@@ -2,7 +2,15 @@
 <manifest>
 
 <remote  name="bb"
-           fetch="https://bitbucket.org/" />
+		 fetch="https://bitbucket.org/" />
+           
+<remote  name="ubertc"
+		 fetch="https://bitbucket.org/UBERTC/"
+		 revision="master" />
+		 
+<remote  name="ryther"
+		 fetch="https://github.com/Ryther/"
+		 revision="master" />
 
 <remove-project name="YAOSP/device_asus_flo" />
 <remove-project name="device/asus/fugu" />
@@ -22,7 +30,7 @@
 <remove-project name="YAOSP/vendor_lge" />
 
 <!-- Ryther misc -->
-	<project name="Ryther/scripts" path="scripts" remote="github" revision="master" />
+	<project name="Ryther/scripts" path="scripts" remote="ryther" />
 
 <!-- bullhead device and kernel -->
 	<project name="PureNexusProject/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="mm" />
@@ -32,5 +40,10 @@
 	<remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
 	<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
 	<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+
+<!-- UBERTC toolchain -->
+	<!-- aarch64-linux-android-* -->
+		<project path="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="ubertc"/>
+		<project path="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="aarch64-linux-android-4.9-kernel" remote="ubertc" />
 
 </manifest>
