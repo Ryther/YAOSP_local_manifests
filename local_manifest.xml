@@ -25,7 +25,7 @@
 	<project name="Ryther/scripts" path="scripts" remote="github" revision="master" />
 
 <!-- bullhead device modded defconfig -->
-	<project name="Ryther/device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="ElementalX" />
+	<project name="Ryther/device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="ElementalX_eclipsActive" />
 
 <!-- bullhead elementalx kernel -->
 	<project name="Ryther/kernel_bullhead_elementalx" path="kernel/lge/bullhead" remote="github" revision="ElementalX-2.00" />
