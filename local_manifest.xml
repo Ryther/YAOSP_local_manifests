@@ -24,10 +24,10 @@
 	<project name="Ryther/scripts" path="scripts" remote="github" revision="master" />
 
 <!-- bullhead device modded defconfig -->
-	<project name="Ryther/device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="ElementalX_eclipsActive" />
+	<project name="Ryther/device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="Phasma-UBERTC-7.0_eclipsActive" />
 
-<!-- bullhead elementalx kernel -->
-	<project name="Ryther/kernel_bullhead_elementalx" path="kernel/lge/bullhead" remote="github" revision="ElementalX-2.00" />
+<!-- bullhead phasma kernel -->
+	<project name="DespairFactor/bullhead" path="kernel/lge/bullhead" remote="github" revision="maul" />
 
 <!-- Removing unused toolchains -->
 	<remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
@@ -35,6 +35,7 @@
 <!-- UBERTC toolchain -->
 	<!-- aarch64-linux-android-4.9 -->
 		<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="UBERTC/aarch64-linux-android-4.9" remote="bb" revision="master" />
-		<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
+	<!-- aarch64-linux-android-7.0-kernel -->
+		<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.0-kernel" name="UBERTC/aarch64-linux-android-7.0-kernel" remote="bb" revision="master" />
 
 </manifest>
