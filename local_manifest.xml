@@ -17,13 +17,13 @@
 <remove-project name="YAOSP/vendor_huawei" />
 <remove-project name="YAOSP/vendor_htc" />
 <remove-project name="YAOSP/vendor_asus" />
-<remove-project name="device/lge/bullhead" />
-<remove-project name="device/lge/bullhead-kernel" />
+<remove-project name="YAOSP/device_lge_bullhead" />
+<remove-project name="YAOSP/kernel_lge_bullhead" />
 
 <!-- Ryther misc -->
 	<project name="Ryther/scripts" path="scripts" remote="github" revision="master" />
 
-<!-- bullhead device modded defconfig -->
+<!-- bullhead device modded defconfig + modded init.bullhead.power.sh -->
 	<project name="Ryther/device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="ElementalX_eclipsActive" />
 
 <!-- bullhead elementalx kernel -->
