@@ -17,15 +17,9 @@
 <remove-project name="YAOSP/vendor_huawei" />
 <remove-project name="YAOSP/vendor_htc" />
 <remove-project name="YAOSP/vendor_asus" />
-<remove-project name="device/lge/bullhead" />
-<remove-project name="device/lge/bullhead-kernel" />
 <remove-project name="YAOSP/vendor_lge" />
 
 <!-- Ryther misc -->
 	<project name="Ryther/scripts" path="scripts" remote="github" revision="master" />
-
-<!-- bullhead device and kernel -->
-	<project name="PureNexusProject/android_device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="mm" />
-	<project name="PureNexusProject/android_kernel_lge_bullhead" path="kernel/lge/bullhead" remote="github" revision="mm" />
 
 </manifest>
