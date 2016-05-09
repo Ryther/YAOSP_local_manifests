@@ -27,7 +27,7 @@
 	<project name="Ryther/device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="ElementalX_eclipsActive" />
 
 <!-- bullhead elementalx kernel -->
-	<project name="Ryther/kernel_bullhead_elementalx" path="kernel/lge/bullhead" remote="github" revision="ElementalX-2.00" />
+	<project name="flar2/bullhead" path="kernel/lge/bullhead" remote="github" revision="ElementalX-2.00" />
 
 <!-- Removing unused toolchains -->
 	<remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
