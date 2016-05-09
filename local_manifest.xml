@@ -25,6 +25,6 @@
 	<project name="Ryther/device_lge_bullhead" path="device/lge/bullhead" remote="github" revision="ElementalX" />
 
 <!-- bullhead elementalx kernel -->
-	<project name="Ryther/kernel_bullhead_elementalx" path="kernel/lge/bullhead" remote="github" revision="ElementalX-2.00" />
+	<project name="flar2/bullhead" path="kernel/lge/bullhead" remote="github" revision="ElementalX-2.00" />
 
 </manifest>
